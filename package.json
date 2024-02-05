@@ -6,6 +6,6 @@
     "tailwindcss": "^3.3.5"
   },
   "scripts": {
-    "dev": "tailwindcss -i ./dist/input.css -o ./static/styles/output.css --watch"
+    "dev": "tailwindcss -i ./static/styles/input.css -o ./static/styles/output.css --watch"
   }
 }
