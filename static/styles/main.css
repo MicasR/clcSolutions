@@ -1,0 +1,56 @@
+nav > div {
+  height: 89.76px;
+}
+
+#logo {
+  width: 200px;
+  /* background-color: white; */
+  background-image: url("../imgs/CLC+SOLUTION+V2+LOGO+GREY+TRANSPARENT+site+web.png");
+  background-size: cover;
+}
+
+.links.square {
+  width: calc(89.76px);
+  justify-content: center;
+}
+
+.hero {
+  min-height: 80vh;
+  background-image: url("../imgs/unsplash-image-Ca8r0PSWg9Q.jpg");
+  background-size: cover;
+  background-position-y: bottom;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  isolation: isolate;
+  position: relative;
+}
+
+.hero:after {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: 0.75;
+  background: #000;
+}
+
+#services .img {
+  background-size: cover;
+}
+
+#majors {
+  background-image: url("../imgs/Exploration-for-oil-and-gas-is-very-expensive-and-risky.jpg");
+}
+
+#sme {
+  background-image: url("../imgs/taylor-grote-LqkFX2Km1a0-unsplash.jpg");
+}
+
+#institution {
+  background-image: url("../imgs/marco-oriolesi-wqLGlhjr6Og-unsplash.jpg");
+}
