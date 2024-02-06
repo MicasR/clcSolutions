@@ -32,7 +32,7 @@
           <h4 class="text-xl text-wrap text-center mt-2">Our solutions are customized to fit our clients activities and resources</h4>
         </div>
       </div>
-      <div id='services' class="flex flex-wrap justify-between px-20 bg-slate-50 p-20 text-wrap text-center gap-20">
+      <div id='services' class="flex flex-wrap justify-between px-20 bg-slate-50 p-20 text-wrap text-center gap-20 font-extralight">
         <div class="service-card flex flex-col gap-2 items-center bg-white px-14 py-12 flex-grow basis-1/4 border border-slate-300 rounded">
           <div id="majors" class="img w-32 h-32 rounded-full"></div>
           <div class="title font-semibold text-2xl">Best Fit for Majors</div>
@@ -68,7 +68,43 @@
           </ol>
         </div>
       </div>
-      <footer class="bg-stone-200 px-20 py-10 flex flex-wrap justify-between gap-20">
+      <div id="contact-us" class="p-20 flex flex-wrap justify-between gap-20 font-extralight">
+        <div class="flex flex-col gap-2 flex-grow">
+          <div class="text-5xl font-medium">Contact</div>
+          <div class="">Please, do feel free to contact our team for a first engagement .</div>
+          <div class="font-medium mt-4">E-mail</div>
+          <div class="">Contact@clcsolution.com</div>
+          <div class="font-medium mt-4">Telephone</div>
+          <div class="">+258 87 201 96 88 </div>
+          <div class="mt-4">Address: Avenida Marginal, 9017 Triunfo, Maputo - Moçambique.</div>
+        </div>
+        <div class="flex flex-col gap-2 flex-grow">
+          <form action="" class="flex flex-col gap-4">
+            <div class="flex flex-wrap gap-4">
+              <div class="flex-grow">
+                <label for="first-name" class="block text-sm mb-2">First Name</label>
+                <input type="text" name="first-name" id="first-name" autocomplete="first-name" class="block w-full flex-1 border border-gray-300 bg-gray-50 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 focus:border-gray-300">
+              </div>
+              <div class="flex-grow">
+                <label for="last-name" class="block text-sm mb-2">Last Name</label>
+                <input type="text" name="last-name" id="last-name" autocomplete="last-name" class="block w-full flex-1 border border-gray-300 bg-gray-50 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 focus:border-gray-300">
+              </div>
+            </div>
+            <div class="flex-grow">
+              <label for="email" class="block text-sm mb-2">Email <span class="opacity-65">(required)</span></label>
+              <input type="text" name="email" id="email" autocomplete="email" class="block w-full flex-1 border border-gray-300 bg-gray-50 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 focus:border-gray-300">
+            </div>
+            <div class="flex-grow">
+              <label for="message" class="block text-sm mb-2">Message <span class="opacity-65">(required)</span></label>
+              <textarea name="message" id="message" rows="3" class="block w-full flex-1 border border-gray-300 bg-gray-50 py-1.5 pl-1 text-gray-900 placeholder:text-gray-400 focus:ring-0 sm:text-sm sm:leading-6 focus:border-gray-300"></textarea>
+            </div>
+            <div class="flex justify-end">
+              <button type="submit" class="font-medium px-8 py-4 bg-slate-800 hover:bg-slate-600 focus:bg-slate-600 hover:cursor-pointer text-white">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <footer class="bg-stone-200 p-20 flex flex-wrap justify-between gap-20">
         <div class="font-extralight flex flex-col gap-2 flex-grow">
           <div class="text-xl">CLC SOLUTIONS Limitada</div>
           <div class="text-sm my-4 hover:underline hover:cursor-pointer">Maputo, Mozambique</div>
