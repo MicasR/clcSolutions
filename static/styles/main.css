@@ -10,7 +10,25 @@
 
 .section-content {
   flex-grow: 1;
+  width: 100%;
   max-width: 1360px;
+}
+
+nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+}
+
+.scroll-watcher {
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll(y);
+}
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
 }
 
 .hero {
@@ -33,8 +51,6 @@
   opacity: 0.6;
   background: #000;
 }
-
-
 
 .slide-in {
   animation: slide-in var(--animation-speed) ease-in-out forwards;
