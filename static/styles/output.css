@@ -2417,6 +2417,11 @@ select {
   background-color: rgb(14 165 233 / var(--tw-bg-opacity));
 }
 
+.bg-sky-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
 .bg-slate-50 {
   --tw-bg-opacity: 1;
   background-color: rgb(248 250 252 / var(--tw-bg-opacity));
@@ -2440,6 +2445,11 @@ select {
 .bg-zinc-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+
+.bg-sky-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(7 89 133 / var(--tw-bg-opacity));
 }
 
 .decoration-slice {
@@ -2870,6 +2880,11 @@ select {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-zinc-100 {
+  --tw-text-opacity: 1;
+  color: rgb(244 244 245 / var(--tw-text-opacity));
+}
+
 .text-zinc-200 {
   --tw-text-opacity: 1;
   color: rgb(228 228 231 / var(--tw-text-opacity));
@@ -3274,6 +3289,11 @@ select {
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-sky-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(2 132 199 / var(--tw-bg-opacity));
+}
+
 .hover\:bg-slate-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
@@ -3282,6 +3302,11 @@ select {
 .hover\:bg-zinc-200:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(228 228 231 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-sky-700:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
 }
 
 .hover\:font-bold:hover {
@@ -3410,8 +3435,16 @@ select {
   outline-color: #2563eb;
 }
 
+.focus-visible\:outline-sky-600:focus-visible {
+  outline-color: #0284c7;
+}
+
 .focus-visible\:outline-zinc-200:focus-visible {
   outline-color: #e4e4e7;
+}
+
+.focus-visible\:outline-sky-700:focus-visible {
+  outline-color: #0369a1;
 }
 
 @media (min-width: 640px) {
