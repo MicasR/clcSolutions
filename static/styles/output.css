@@ -1270,6 +1270,22 @@ select {
   height: 100%;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -1305,6 +1321,22 @@ select {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-7 {
+  width: 1.75rem;
+}
+
+.w-8 {
+  width: 2rem;
 }
 
 .max-w-4xl {
@@ -2541,6 +2573,10 @@ select {
   fill: #fff;
 }
 
+.fill-zinc-100 {
+  fill: #f4f4f5;
+}
+
 .object-contain {
   -o-object-fit: contain;
      object-fit: contain;
@@ -3477,8 +3513,29 @@ select {
 }
 
 @media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-2\/4 {
     width: 50%;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
   }
 }
 

@@ -15,11 +15,30 @@
     >
       <div class="scroll-watcher bg-sky-500 h-1 w-full"></div>
       <section class="section w-screen">
-        <div class="section-content flex-wrap flex items-center gap-16">
-          <a href="#body" class="block">
-            <div class="logo"></div>
-          </a>
-          <div class="flex-wrap flex justify-between items-center flex-grow">
+        <div class="section-content flex items-center gap-16">
+          <div class="flex items-center w-full lg:w-fit justify-between">
+            <a href="#body" class="block">
+              <div class="logo"></div>
+            </a>
+            <div class="link-toggle-icon fill-zinc-100 lg:hidden hover:cursor-pointer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex-wrap hidden lg:flex justify-between items-center flex-grow"
+          >
             <div class="links flex gap-10">
               <a href="#" class="block">Our Services</a>
               <a href="#" class="block">Research & Development</a>
