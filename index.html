@@ -16,22 +16,41 @@
       <div class="scroll-watcher bg-sky-500 h-1 w-full"></div>
       <section class="section w-screen">
         <div class="section-content flex items-center gap-16">
-          <div class="flex items-center w-full lg:w-fit justify-between">
+          <div
+            class="flex items-center w-full lg:w-fit justify-between logo-and-icons"
+          >
             <a href="#body" class="block">
               <div class="logo"></div>
             </a>
-            <div class="link-toggle-icon fill-zinc-100 lg:hidden hover:cursor-pointer">
+            <div
+              onclick="toggleLinks()"
+              class="link-toggle-icon fill-zinc-100 lg:hidden hover:cursor-pointer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                class="w-8 h-8"
+                class="w-8 h-8 svg-icon"
               >
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M3.75 9h16.5m-16.5 6.75h16.5"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-8 h-8 hidden svg-icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
                 />
               </svg>
             </div>

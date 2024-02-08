@@ -1,6 +1,5 @@
 window.addEventListener("scroll", () => {
   const navbar = document.getElementById("navbar");
-  console.log(navbar);
   if (window.scrollY > 20) {
     // Adjust threshold as needed
     navbar.classList.add("nav-scrolled");
@@ -26,3 +25,13 @@ links.forEach((link) => {
     }
   });
 });
+
+function toggleLinks() {
+  const navbar = document.getElementById("navbar");
+  navbar.classList.toggle("active");
+
+  const elements = document.getElementsByClassName("svg-icon");
+  for (let element of elements) {
+    element.classList.toggle("hidden");
+  }
+}
