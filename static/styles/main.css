@@ -16,6 +16,17 @@
 
 nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.24);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.nav-scrolled {
+  background-color: white;
+  color: black;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+}
+
+.nav-scrolled .logo {
+  background-image: url("../imgs/CLC+SOLUTION+V2+LOGO+GREY+TRANSPARENT+site+web.png");
 }
 
 .scroll-watcher {
@@ -97,13 +108,15 @@ nav {
   }
 }
 
-#logo {
-  height: calc(89.76px);
-  width: calc(200px);
+.logo {
+  margin-top: 9px;
+  height: calc(89.76px / 1.5);
+  width: calc(200px / 1.5);
   /* background-color: white; */
   background-image: url("../imgs/MicrosoftTeams-image.png");
   background-size: cover;
   background-position-y: center;
+  background-position-x: left;
 }
 
 .links.square {

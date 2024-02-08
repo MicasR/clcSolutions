@@ -9,13 +9,32 @@
   </head>
   <body class="font-extralight">
     <!-- Basic Section Layout for Constancy -->
-    <nav class="fixed z-10">
+    <nav
+      id = "navbar"
+      class="fixed z-10 text-zinc-200 slide-down font-medium pb-1"
+    >
+      <div class="scroll-watcher bg-sky-500 h-1 w-full"></div>
       <section class="section w-screen">
-        <div class="section-content">
-          <div class="">Hello</div>
+        <div class="section-content flex-wrap flex items-center gap-16">
+          <div class="logo"></div>
+          <div class="flex-wrap flex justify-between items-center flex-grow">
+            <div class="links flex gap-10">
+              <div>Link 1</div>
+              <div>Link 2</div>
+              <div>Link 3</div>
+              <div>Link 4</div>
+              <div>Link 5</div>
+            </div>
+            <div class="links flex gap-10">
+              <div>Link 1</div>
+              <div>Link 2</div>
+              <div>Link 3</div>
+              <div>Link 4</div>
+              <div>Link 5</div>
+            </div>
+          </div>
         </div>
       </section>
-      <div class="scroll-watcher bg-sky-500 h-2 w-full">b</div>
     </nav>
 
     <section class="section hero">
@@ -300,5 +319,6 @@
         <div class="text-sm hover:underline hover:cursor-pointer">Our team</div>
       </div>
     </footer>
+    <script src="./static/scripts/main.js"></script>
   </body>
 </html>
