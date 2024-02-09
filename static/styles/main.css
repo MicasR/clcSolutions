@@ -10,7 +10,6 @@
 
 .section-content {
   flex-grow: 1;
-  width: 100%;
   max-width: 1360px;
 }
 
@@ -143,6 +142,10 @@ nav {
 
 #services .img {
   background-size: cover;
+}
+
+.service-card {
+  flex-basis: calc(100% / 3 - 16px);
 }
 
 #majors {
