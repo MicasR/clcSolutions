@@ -3492,6 +3492,10 @@ select {
     flex-direction: row;
   }
 
+  .lg\:items-center {
+    align-items: center;
+  }
+
   .lg\:gap-16 {
     gap: 4rem;
   }

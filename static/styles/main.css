@@ -28,6 +28,12 @@ nav {
   nav.active .logo {
     background-image: url("../imgs/CLC+SOLUTION+V2+LOGO+GREY+TRANSPARENT+site+web.png");
   }
+
+  .link-area {
+    width: 100%;
+    gap: 40px;
+    margin-top: 40px;
+  }
 }
 
 .nav-scrolled .logo {
@@ -54,7 +60,7 @@ nav {
 }
 
 .hero {
-  min-height: 90vh;
+  min-height: 94vh;
   background-image: url("../imgs/pexels-zukiman-mohamad-87236.jpg");
   background-size: cover;
   background-position: bottom;
